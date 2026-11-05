@@ -1,0 +1,464 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Passion - Photography</title>
+
+    <style>
+
+    
+
+        body {
+            margin: 0;
+            background-color: #f4f1ec;
+            font-family: Georgia, Garamond, serif;
+        }
+
+
+        
+
+        header {
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 4px;
+            text-shadow: 3px 3px 5px black;
+        }
+
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px 18px;
+            margin: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:link {
+            color: #333333;
+            background-color: #eeeeee;
+        }
+
+        nav a:visited {
+            color: purple;
+            background-color: #e1bee7;
+        }
+
+        nav a:hover {
+            background-color: #d7ccc8;
+            color: black;
+        }
+
+        nav a:active {
+            background-color: #ffcc80;
+        }
+
+
+        
+
+        main {
+            width: 90%;
+            max-width: 1200px;
+            margin: 25px auto;
+            background-color: white;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: #333333;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+
+        
+
+        .intro {
+            background-color: #f5f5f5;
+            border-left: 5px solid #333333;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            box-sizing: border-box;
+        }
+
+        .intro p {
+            text-align: justify;
+            line-height: 1.7;
+            font-size: 17px;
+            margin: 0;
+        }
+
+
+        
+
+        .photo-image {
+            display: block;
+            width: 80%;
+            max-width: 750px;
+            height: auto;
+            margin: 25px auto;
+            border: 4px solid #333333;
+            box-sizing: border-box;
+        }
+
+
+
+        .photography {
+            column-count: 3;
+            column-gap: 20px;
+            column-rule: 2px solid #bdbdbd;
+            margin-top: 20px;
+        }
+
+        .topic {
+            break-inside: avoid;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fafafa;
+            box-sizing: border-box;
+        }
+
+        .topic h3 {
+            color: #555555;
+            font-size: 21px;
+            margin-top: 5px;
+        }
+
+        .topic p {
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+
+
+
+        .tips {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin-top: 30px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: circle;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+
+       
+
+        footer {
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 25px;
+        }
+
+
+       
+
+        @media screen and (max-width: 768px) {
+
+            main {
+                width: 94%;
+                padding: 20px;
+            }
+
+            .photography {
+                column-count: 2;
+            }
+
+            .photo-image {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+
+        }
+
+
+        
+
+        @media screen and (max-width: 500px) {
+
+            main {
+                width: 96%;
+                padding: 15px;
+            }
+
+            .photography {
+                column-count: 1;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px 20px;
+            }
+
+            .photo-image {
+                width: 100%;
+                height: auto;
+            }
+
+            header h1 {
+                font-size: 27px;
+                letter-spacing: 2px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            .intro p {
+                font-size: 16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+    <header>
+
+        <h1>MY PASSION - PHOTOGRAPHY</h1>
+
+        <p>Capture • Create • Preserve</p>
+
+    </header>
+
+
+    
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#passion">My Passion</a>
+
+        <a href="#skills">Photography Skills</a>
+
+        <a href="#tips">Tips</a>
+
+    </nav>
+
+
+    
+
+    <main id="home">
+
+
+        
+
+        <section class="intro">
+
+            <h2>My Passion for Photography</h2>
+
+            <p>
+                Photography is one of my favourite hobbies and passions.
+                It allows me to capture beautiful moments, places and
+                memories through images. I enjoy observing nature,
+                people and different surroundings and turning those
+                moments into photographs. Photography helps me improve
+                my creativity, patience and observation skills.
+            </p>
+
+        </section>
+
+
+        
+
+        <img
+            class="photo-image"
+            src="photography.jpg"
+            alt="My Photography">
+
+
+        
+
+        <section id="passion">
+
+            <h2>Why I Love Photography</h2>
+
+            <div class="photography">
+
+
+                <div class="topic">
+
+                    <h3>Creativity</h3>
+
+                    <p>
+                        Photography gives me the freedom to experiment
+                        with different angles, lighting and compositions.
+                        It helps me express my creative ideas through
+                        pictures.
+                    </p>
+
+                </div>
+
+
+                <div class="topic">
+
+                    <h3>Nature Photography</h3>
+
+                    <p>
+                        Capturing nature is one of my favourite parts of
+                        photography. Flowers, mountains, sunsets and
+                        landscapes provide beautiful subjects.
+                    </p>
+
+                </div>
+
+
+                <div class="topic">
+
+                    <h3>Memories</h3>
+
+                    <p>
+                        Photographs help preserve important moments.
+                        Looking at old photographs allows us to remember
+                        special people, places and experiences.
+                    </p>
+
+                </div>
+
+
+                <div class="topic">
+
+                    <h3>Observation</h3>
+
+                    <p>
+                        Photography improves observation skills because
+                        it encourages me to notice small details,
+                        colours, patterns and interesting moments.
+                    </p>
+
+                </div>
+
+
+                <div class="topic">
+
+                    <h3>Lighting</h3>
+
+                    <p>
+                        Lighting plays an important role in photography.
+                        Understanding natural and artificial light can
+                        make photographs more attractive.
+                    </p>
+
+                </div>
+
+
+                <div class="topic">
+
+                    <h3>Composition</h3>
+
+                    <p>
+                        Good composition makes a photograph more
+                        interesting. I enjoy learning how to arrange
+                        different objects within a frame.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        
+
+        <section id="skills" class="tips">
+
+            <h2>Photography Skills I Want to Improve</h2>
+
+            <ul>
+
+                <li>Learn different camera settings.</li>
+
+                <li>Improve composition techniques.</li>
+
+                <li>Understand lighting better.</li>
+
+                <li>Learn photo editing.</li>
+
+                <li>Explore nature and portrait photography.</li>
+
+            </ul>
+
+        </section>
+
+
+        
+
+        <section class="intro">
+
+            <h2>Photography is My Passion</h2>
+
+            <p>
+                For me, photography is more than just taking pictures.
+                It is a way of seeing the world from a different
+                perspective. Every photograph tells a story and captures
+                a moment that can be remembered forever. I hope to
+                continue learning and improving my photography skills.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    
+
+    <footer>
+
+        <p>© 2026 My Passion - Photography | Responsive Webpage</p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
